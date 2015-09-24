@@ -1,19 +1,19 @@
 {
-  "name": "grunt-angular-gettext",
-  "description": "Tasks for extracting/compiling angular-gettext strings.",
+  "name": "grunt-angular-gettext-karmasafe",
+  "description": "For for angular gettext tasks for extracting/compiling angular-gettext strings.",
   "version": "2.1.3",
   "homepage": "http://angular-gettext.rocketeer.be/",
   "author": {
-    "name": "Ruben Vermeersch",
-    "email": "ruben@rocketeer.be",
+    "name": "Osvaldo Flores",
+    "email": "valin07@gmail.com",
     "url": "http://rocketeer.be"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubenv/grunt-angular-gettext.git"
+    "url": "https://github.com/valin07/grunt-angular-gettext"
   },
   "bugs": {
-    "url": "https://github.com/rubenv/grunt-angular-gettext/issues"
+    "url": "https://github.com/valin07/grunt-angular-gettext/issues"
   },
   "licenses": [
     {

@@ -1,0 +1,27 @@
+{
+  "name": "grunt-angular-gettext-karmasafe",
+  "version": "0.0.1",
+  "homepage": "https://github.com/valin07/grunt-angular-gettext",
+  "authors": [
+    "Osvaldo Flores <valin07@gmail.com>"
+  ],
+  "description": "Fork for grunt-angular-gettext tasks where extract and compile tasks have different name.",
+  "main": "Gruntfile.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "grunt",
+    "angular",
+    "gettext"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
