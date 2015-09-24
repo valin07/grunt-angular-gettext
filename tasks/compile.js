@@ -1,7 +1,7 @@
 var Compiler = require('angular-gettext-tools').Compiler;
 
 module.exports = function (grunt) {
-    grunt.registerMultiTask('nggettext_compile', 'Compile strings from .po files', function () {
+    grunt.registerMultiTask('nggettextcompile', 'Compile strings from .po files', function () {
         var options = this.options();
 
         if (options.format && !Compiler.hasFormat(options.format)) {

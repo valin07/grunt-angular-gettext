@@ -83,7 +83,7 @@ describe("Extract", function () {
     it("Warns for incompatible plurals", function (done) {
         grunt.util.spawn({
             cmd: "grunt",
-            args: ["nggettext_extract:manual"]
+            args: ["nggettextextract:manual"]
         }, function (err) {
             assert(!fs.existsSync("tmp/test5.pot"));
             done(err);

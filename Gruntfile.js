@@ -37,7 +37,7 @@ module.exports = function (grunt) {
             }
         },
 
-        nggettext_extract: {
+        nggettextextract: {
             auto: {
                 files: {
                     "tmp/test1.pot": "test/fixtures/single.html",
@@ -101,7 +101,7 @@ module.exports = function (grunt) {
             }
         },
 
-        nggettext_compile: {
+        nggettextcompile: {
             test1: {
                 files: {
                     "tmp/test1.js": "test/fixtures/nl.po"
@@ -153,5 +153,5 @@ module.exports = function (grunt) {
 
     grunt.registerTask("default", ["test"]);
     grunt.registerTask("build", ["clean", "jshint"]);
-    grunt.registerTask("test", ["build", "nggettext_extract:auto", "nggettext_extract:custom", "nggettext_extract:custom_extensions", "nggettext_extract:custom_marker_name", "nggettext_compile", "mochacli"]);
+    grunt.registerTask("test", ["build", "nggettextextract:auto", "nggettextextract:custom", "nggettextextract:custom_extensions", "nggettextextract:custom_marker_name", "nggettextcompile", "mochacli"]);
 };
