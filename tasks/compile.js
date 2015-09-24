@@ -1,4 +1,4 @@
-var Compiler = require('angular-gettext-tools').Compiler;
+var Compiler = require('angular-gettext-tools-strict').Compiler;
 
 module.exports = function (grunt) {
     grunt.registerMultiTask('nggettextcompile', 'Compile strings from .po files', function () {
